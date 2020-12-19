@@ -2,7 +2,7 @@
 const newArr = (string, numberOfIterations) => {
   const arr = []
   for (let i = 0; i < numberOfIterations; i++) {
-      arr.push(string)
+    arr.push(string)
   }
 
   return arr
@@ -49,7 +49,7 @@ const checkObj = obj => {
 
 //Lesson 7
 const checkObject = (key) => {
-  const obj = (obj = {}, input = []) => {
+  const newObj = (obj = {}, input = []) => {
     for (let key in object) {
       input.forEach(importKey => {
         if (key === importKey) {
@@ -59,7 +59,7 @@ const checkObject = (key) => {
     }
   }
 
-  return obj
+  return newObj
 }
 
 //Lesson 8
@@ -68,21 +68,3 @@ const removeIndex = (arr) => {
 
   return remove
 }
-
-//Lesson 9
-const checkWhetherItPassesOrNot = () => {
-  const students = [
-    { id: 1, name: 'Nguyễn Thị Tèo', score: 9.2 },
-    { id: 2, name: 'Phạm Văn Bưởi', score: 2.3 },
-    { id: 3, name: 'Hoàng Văn Nam', score: 3.7 },
-    { id: 4, name: 'Vũ Ngọc Duy', score: 6.9 },
-    { id: 5, name: 'Nguyễn Minh Nhật', score: 5.2 },
-    { id: 6, name: 'Phí Duy Quân', score: 9.6 },
-    { id: 7, name: 'Trần Minh Minh', score: 6.1 }
-  ]
-
-  const 
-}
-
-//Lesson 10
-
