@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Homework/unit_15/lesson1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content student-form">
+            <div class="form-group">
+                <label class="label" for="id">ID</label>
+                <input class="input id" type="number" name="id" value="">
+            </div>
+  
+            <div class="form-group">
+                <label class="label" for="name">Name</label>
+                <input class="input name" type="text" name="name" value="">
+            </div>
+  
+            <div class="form-group">
+                <label class="label" for="gender">Gender</label>
+                <input class="input gender" type="text" name="gender" value="">
+            </div>
+  
+            <div class="form-group">
+                <label class="label" for="age">Age</label>
+                <input class="input age" type="number" name="age" value="">
+            </div>
+  
+            <div class="form-group">
+                <button type="submit" class="btn btn-success" onclick="onclickCreateStudents()">Create</button>
+            </div>
+            
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Full Name</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Age</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody id="studentsList">
+            </tbody>
+          </table>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
